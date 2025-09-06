@@ -247,5 +247,28 @@
         }
       }
     }
+
+    .host-card {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding-block: 1.5rem;
+      border-bottom: 1px solid var(--stroke-color);
+
+      .host-info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+
+        & h3 {
+          font: var(--subtitle-sm-medium);
+        }
+
+        & p {
+          font: var(--text-sm);
+          color: var(--subtitle-color);
+        }
+      }
+    }
   }
 }
