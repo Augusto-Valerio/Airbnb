@@ -511,3 +511,37 @@
     }
   }
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--footer-background);
+
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+
+    & h3 {
+      font: var(--text-sm);
+      font-weight: 500;
+    }
+
+    & ul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      width: 24rem;
+      gap: 1rem;
+
+      font: var(--text-sm);
+      & a {
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
