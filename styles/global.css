@@ -33,3 +33,12 @@
   --border-hover: #f7f7f7;
   --background-hover: #6a6a6a15;
 }
+
+body {
+  font-family: var(--font-family);
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
