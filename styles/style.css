@@ -1,5 +1,5 @@
 #site-header {
-
+  border-bottom: 1px solid var(--stroke-color);
   font: var(--text-sm);
 
   .nav-wrapper {
