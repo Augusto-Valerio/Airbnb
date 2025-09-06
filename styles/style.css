@@ -335,5 +335,49 @@
         }
       }
     }
+
+    .property-amenities {
+      padding-block: 1.5rem;
+
+      & h3 {
+        font: var(--text-md);
+      }
+
+      .amenities-list {
+        display: flex;
+        gap: 4.3125rem;
+      }
+
+      & ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding-block: 1.5rem;
+
+        & .amenities-item {
+          display: flex;
+          align-items: center;
+          list-style: none;
+          gap: 1rem;
+
+          font: var(--subtitle-sm-regular);
+        }
+      }
+
+      & button {
+        background-color: var(--footer-background);
+        border: none;
+        padding: 0.875rem 1.5rem;
+        border-radius: 0.75rem;
+
+        font: var(--subtitle-sm-medium);
+
+        cursor: pointer;
+
+        &:hover {
+          background-color: var(--background-hover);
+        }
+      }
+    }
   }
 }
