@@ -211,3 +211,41 @@
     }
   }
 }
+
+.property-wrapper {
+  margin-top: 2rem;
+
+  #property-info {
+    width: 58%;
+
+    .info-header {
+      border-bottom: 1px solid var(--stroke-color);
+
+      & h2 {
+        font: var(--text-md);
+      }
+
+      & ul {
+        display: flex;
+        font: var(--subtitle-sm);
+
+        gap: 1rem;
+        list-style-type: none;
+
+        margin-bottom: 1.5rem;
+
+        & li {
+          position: relative;
+        }
+
+        & li:not(:first-child)::before {
+          content: ".";
+          position: absolute;
+          font-size: 1.25rem;
+          top: -0.4375rem;
+          left: -0.625rem;
+        }
+      }
+    }
+  }
+}
