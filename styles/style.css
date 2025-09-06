@@ -299,5 +299,41 @@
         }
       }
     }
+
+    .property-description {
+      padding-block: 1.5rem;
+      border-bottom: 1px solid var(--stroke-color);
+
+      font: var(--subtitle-sm-regular);
+
+      & h3 {
+        font: var(--subtitle-sm-regular);
+      }
+
+      & p:nth-child(2) {
+        padding-block: 1.5rem;
+      }
+
+      & li {
+        list-style-type: none;
+      }
+
+      & button {
+        margin-top: 1.5rem;
+
+        background-color: var(--footer-background);
+        border: none;
+        padding: 0.875rem 1.5rem;
+        border-radius: 0.75rem;
+
+        font: var(--subtitle-sm-medium);
+
+        cursor: pointer;
+
+        &:hover {
+          background-color: var(--background-hover);
+        }
+      }
+    }
   }
 }
