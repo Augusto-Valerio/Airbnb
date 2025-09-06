@@ -211,3 +211,303 @@
     }
   }
 }
+
+.property-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+
+  #property-info {
+    width: 58%;
+
+    .info-header {
+      border-bottom: 1px solid var(--stroke-color);
+
+      & h2 {
+        font: var(--text-md);
+      }
+
+      & ul {
+        display: flex;
+        font: var(--subtitle-sm);
+
+        gap: 1rem;
+        list-style-type: none;
+
+        margin-bottom: 1.5rem;
+
+        & li {
+          position: relative;
+        }
+
+        & li:not(:first-child)::before {
+          content: ".";
+          position: absolute;
+          font-size: 1.25rem;
+          top: -0.4375rem;
+          left: -0.625rem;
+        }
+      }
+    }
+
+    .host-card {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      padding-block: 1.5rem;
+      border-bottom: 1px solid var(--stroke-color);
+
+      .host-info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+
+        & h3 {
+          font: var(--subtitle-sm-medium);
+        }
+
+        & p {
+          font: var(--text-sm);
+          color: var(--subtitle-color);
+        }
+      }
+    }
+
+    .highlights-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      border-bottom: 1px solid var(--stroke-color);
+      padding-block: 2rem;
+
+      .highlight-item {
+        display: flex;
+        align-items: flex-start;
+        list-style: none;
+        gap: 2rem;
+      }
+
+      .highlight-content {
+        display: flex;
+        flex-direction: column;
+
+        & h3 {
+          font: var(--text-sm-medium);
+        }
+
+        & p {
+          font: var(--text-sm);
+          color: var(--subtitle-color);
+        }
+      }
+    }
+
+    .property-description {
+      padding-block: 1.5rem;
+      border-bottom: 1px solid var(--stroke-color);
+
+      font: var(--subtitle-sm-regular);
+
+      & h3 {
+        font: var(--subtitle-sm-regular);
+      }
+
+      & p:nth-child(2) {
+        padding-block: 1.5rem;
+      }
+
+      & li {
+        list-style-type: none;
+      }
+
+      & button {
+        margin-top: 1.5rem;
+
+        background-color: var(--footer-background);
+        border: none;
+        padding: 0.875rem 1.5rem;
+        border-radius: 0.75rem;
+
+        font: var(--subtitle-sm-medium);
+
+        cursor: pointer;
+
+        &:hover {
+          background-color: var(--background-hover);
+        }
+      }
+    }
+
+    .property-amenities {
+      padding-block: 1.5rem;
+
+      & h3 {
+        font: var(--text-md);
+      }
+
+      .amenities-list {
+        display: flex;
+        gap: 4.3125rem;
+      }
+
+      & ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding-block: 1.5rem;
+
+        & .amenities-item {
+          display: flex;
+          align-items: center;
+          list-style: none;
+          gap: 1rem;
+
+          font: var(--subtitle-sm-regular);
+        }
+      }
+
+      & button {
+        background-color: var(--footer-background);
+        border: none;
+        padding: 0.875rem 1.5rem;
+        border-radius: 0.75rem;
+
+        font: var(--subtitle-sm-medium);
+
+        cursor: pointer;
+
+        &:hover {
+          background-color: var(--background-hover);
+        }
+      }
+    }
+  }
+
+  .daily-info {
+    position: sticky;
+    top: 0.625rem;
+    padding-bottom: 1.5rem;
+    align-self: flex-start;
+
+    .daily-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+
+      .daily-header {
+        display: flex;
+        align-items: center;
+        border-bottom: none;
+        font: var(--text-sm);
+
+        padding: 0.4375rem 3.375rem;
+        border: 1px solid rgba(0, 0, 0, 0.04);
+        box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.12);
+        background: var(--background-color);
+        border-radius: 0.75rem;
+      }
+
+      .reservation-wrapper {
+        padding: 1.5rem;
+        background: rgba(255, 255, 255, 0.002);
+        box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 0.75rem;
+
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        & p {
+          margin: 0 auto;
+        }
+
+        .reservation-price {
+          & u {
+            font: var(--text-md-bold);
+            margin-right: 0.5rem;
+          }
+        }
+      }
+
+      .reservation-form {
+        .input-wrapper {
+          padding: 1rem;
+        }
+
+        .inputs-group {
+          display: grid;
+          border: 1px solid #8c8c8c;
+          border-radius: 0.4375rem;
+          cursor: pointer;
+
+          margin-bottom: 1rem;
+        }
+
+        .input-wrapper {
+          display: flex;
+          flex-direction: column;
+          border: none;
+          font: var(--text-xxs);
+
+          cursor: pointer;
+
+          &:nth-child(1) {
+            border-right: 1px solid #8c8c8c;
+          }
+
+          &:nth-child(3) {
+            grid-column: 1 / 3;
+            border-top: 1px solid #8c8c8c;
+          }
+        }
+
+        input,
+        select,
+        label {
+          border: none;
+
+          cursor: pointer;
+          appearance: none;
+        }
+
+        select {
+          background-image: url(/assets/icons/arrow-down.svg);
+          background-repeat: no-repeat;
+          background-position: right;
+        }
+
+        input[type="date"]::-webkit-calendar-picker-indicator {
+          display: none;
+        }
+
+        & button {
+          border: none;
+          border-radius: 1.5rem;
+          padding: 0.8125rem 8rem;
+
+          background: linear-gradient(to right, #e61e4d, #e31c5f, #d70466);
+
+          font: var(--text-xs);
+          color: var(--background-color);
+          cursor: pointer;
+          transform: scale(1);
+          transition: transform 0.1s;
+
+          &:active {
+            transform: scale(0.95);
+            background: linear-gradient(to right, #f71045, #f30e5a, #eb036f);
+          }
+        }
+      }
+
+      .daily-report {
+        & a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 1rem;
+        }
+      }
+    }
+  }
+}
