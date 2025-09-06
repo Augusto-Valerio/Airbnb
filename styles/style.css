@@ -270,5 +270,34 @@
         }
       }
     }
+
+    .highlights-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      border-bottom: 1px solid var(--stroke-color);
+      padding-block: 2rem;
+
+      .highlight-item {
+        display: flex;
+        align-items: flex-start;
+        list-style: none;
+        gap: 2rem;
+      }
+
+      .highlight-content {
+        display: flex;
+        flex-direction: column;
+
+        & h3 {
+          font: var(--text-sm-medium);
+        }
+
+        & p {
+          font: var(--text-sm);
+          color: var(--subtitle-color);
+        }
+      }
+    }
   }
 }
