@@ -213,6 +213,54 @@
           </section>
         </div>
       </section>
+
+      <aside class="daily-info">
+        <div class="daily-wrapper">
+          <header class="daily-header">
+            <img src="/assets/icons/clip-icon.svg" alt="todas as taxas inclusas" />
+            <p>Os preços incluem todas as taxas</p>
+          </header>
+
+          <div class="reservation-wrapper">
+            <div class="reservation-price">
+              <p><u>R$ 558</u>por 2 noites</p>
+            </div>
+
+            <form class="reservation-form">
+              <div class="inputs-group">
+                <div class="input-wrapper">
+                  <label for="checkin">CHECK-IN</label>
+                  <input type="date" id="checkin" name="checkin" />
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="checkout">CHECKOUT</label>
+                  <input type="date" id="checkout" name="checkout" />
+                </div>
+
+                <div class="input-wrapper">
+                  <label for="guests">HÓSPEDES</label>
+                  <select id="guests" name="guests">
+                    <option value="guest" hidden>1 hóspede</option>
+                    <option value="adult">Adultos</option>
+                    <option value="children">Crianças</option>
+                    <option value="baby">Bebês</option>
+                    <option value="pet">Animais de estimação</option>
+                  </select>
+                </div>
+              </div>
+              <button type="submit">Reservar</button>
+            </form>
+            <p>Você ainda não será cobrado</p>
+          </div>
+
+          <div class="daily-report">
+            <a href="#">
+              <img src="./assets/icons/flag-icon.svg" alt="Denuncie este anúncio">
+              Denunciar este anúncio</a>
+          </div>
+        </div>
+      </aside>
     </div>
   </main>
 </body>
