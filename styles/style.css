@@ -620,6 +620,26 @@
     margin-top: 1.5rem;
     display: flex;
     justify-content: space-between;
+
+    & ul {
+      width: 30%;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      & li a:last-child {
+        display: flex;
+        align-items: center;
+        margin-top: 0.5rem;
+        font-weight: 700;
+        gap: 0.25rem;
+
+        &:hover {
+          color: var(--text-hover);
+        }
+      }
+    }
   }
 }
 
