@@ -363,6 +363,10 @@
           gap: 1rem;
 
           font: var(--subtitle-sm-regular);
+
+          &:last-child{
+            text-decoration: line-through;
+          }
         }
       }
 
