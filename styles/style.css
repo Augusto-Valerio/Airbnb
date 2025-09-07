@@ -543,10 +543,41 @@
       }
     }
 
-    
+    .review-avatar {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+    }
+
+    .review-content {
+      margin-block: 0.625rem 1.5rem;
+
+      & span {
+        font: var(--text-sm);
+        font-weight: 500;
+      }
+
+      & span:nth-child(3) {
+        color: var(--subtitle-color);
+        font-weight: 400;
+      }
+    }
+
+    .review-text {
+      font: var(--subtitle-sm);
+      margin: 0.5rem 0;
+    }
+
+    .review-more {
+      font: var(--subtitle-sm);
+      font-weight: 500;
+
+      &:hover {
+        color: var(--text-hover);
+      }
     }
   }
-
+}
 
 footer {
   display: flex;
