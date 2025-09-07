@@ -609,6 +609,45 @@
   }
 }
 
+#property-rules {
+  padding-block: 1.5rem 3rem;
+
+  & h2 {
+    font: var(--text-md);
+  }
+
+  .rules {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+
+    & ul {
+      width: 30%;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      & li:nth-child(1) {
+        font-weight: 500;
+        margin-top: 0.5rem;
+      }
+
+      & li a:last-child {
+        display: flex;
+        align-items: center;
+        margin-top: 0.5rem;
+        font-weight: 700;
+        gap: 0.25rem;
+
+        &:hover {
+          color: var(--text-hover);
+        }
+      }
+    }
+  }
+}
+
 footer {
   display: flex;
   flex-direction: column;
