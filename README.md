@@ -33,7 +33,7 @@ A página original que serviu como inspiração pode ser acessada aqui:
  ## 🌍 Deployment
 
 Você pode acessar o projeto diretamente através de:
-- [Airbnb Clone em Vercel](https://airbnb-clone-cp4.vercel.app) 👈
+- <a href="https://airbnb-clone-cp4.vercel.app" target="_blank">Airbnb Clone em Vercel (recomendado)</a> 👈
 - [Airbnb Clone em GitHub Pages](https://augusto-valerio.github.io/Airbnb-Clone/) 👈
 
 ---
@@ -41,4 +41,5 @@ Você pode acessar o projeto diretamente através de:
 ## 👨‍💻 Autores
 - [Augusto Valerio](https://github.com/Augusto-Valerio)
 - [Jonas Esteves](https://github.com/JonasEstevess)
+
 
