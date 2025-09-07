@@ -577,6 +577,36 @@
       }
     }
   }
+
+  .review-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    border-bottom: 1px solid var(--stroke-color);
+    padding-bottom: 1.5rem;
+
+    & button {
+      background-color: var(--footer-background);
+      border: none;
+      padding: 0.875rem 1.5rem;
+      border-radius: 0.75rem;
+
+      font: var(--subtitle-sm-medium);
+
+      cursor: pointer;
+
+      &:hover {
+        background-color: var(--background-hover);
+      }
+    }
+
+    & a {
+      text-decoration: underline;
+      color: var(--subtitle-color);
+      font-size: 0.75rem;
+    }
+  }
 }
 
 footer {
