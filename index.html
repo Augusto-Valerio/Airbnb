@@ -1,353 +1,419 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/index.css" />
 
+    <link
+      rel="shortcut icon"
+      href="./assets/airbnb-favicon.png"
+      type="image/x-icon"
+    />
+    <title>
+      Em frente a Praia - Exclusividade - Apartamentos para Alugar em Santos...
+    </title>
+  </head>
 
-  <link rel="stylesheet" href="./styles/index.css">
-
-  <link rel="shortcut icon" href="./assets/airbnb-favicon.png" type="image/x-icon">
-  <title>Em frente a Praia - Exclusividade - Apartamentos para Alugar em Santos...</title>
-</head>
-
-<body>
-  <header id="site-header">
-    <div class="container">
-      <div class="nav-wrapper">
-        <div class="nav-logo">
-          <a href="index.html" class="logo">
-            <img src="./assets/airbnb-logo.png" alt="Logo Airbnb" />
-          </a>
-        </div>
-
-        <nav class="navbar">
-          <ul>
-            <li>
-              <img src="./assets/icons/home-icon.svg" alt="Qualquer lugar" />
-              <a href="#">Qualquer lugar</a>
-            </li>
-            <li>
-              <a href="#">Qualquer semana</a>
-            </li>
-            <li>
-              <a href="#">Hóspedes?</a>
-            </li>
-
-            <img src="./assets/icons/search.svg" alt="Pesquisar" />
-          </ul>
-        </nav>
-
-        <div class="nav-actions">
-          <a href="#">Torne-se um anfitrião</a>
-          <a href="#">
-            <img src="./assets/icons/globe-icon.svg" alt="Idioma" />
-          </a>
-          <a href="#">
-            <img src="./assets/icons/bars-icon.svg" alt="Menu" />
-          </a>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <section id="hero">
+  <body>
+    <header id="site-header">
       <div class="container">
-        <div class="hero-wrapper">
-          <header class="hero-header">
-            <h1>Em frente a Praia - Exclusividade</h1>
+        <div class="nav-wrapper">
+          <div class="nav-logo">
+            <a href="index.html" class="logo">
+              <img src="./assets/airbnb-logo.png" alt="Logo Airbnb" />
+            </a>
+          </div>
 
-            <div class="hero-actions">
-              <button class="btn">
-                <img src="./assets/icons/share.svg" alt="Compartilhar" />
-                Compartilhar
-              </button>
+          <nav class="navbar">
+            <ul>
+              <li>
+                <img src="./assets/icons/home-icon.svg" alt="Qualquer lugar" />
+                <a href="#">Qualquer lugar</a>
+              </li>
+              <li>
+                <a href="#">Qualquer semana</a>
+              </li>
+              <li>
+                <a href="#">Hóspedes?</a>
+              </li>
 
-              <button class="btn">
-                <img src="./assets/icons/heart.svg" alt="Salvar" />
-                Salvar
-              </button>
-            </div>
-          </header>
+              <img src="./assets/icons/search.svg" alt="Pesquisar" />
+            </ul>
+          </nav>
 
-          <div class="hero-gallery">
-            <img src="./assets/images/img1.jpg" alt="Sala de estar" />
-            <img src="./assets/images/img2.jpg" alt="Vista para a praia" />
-            <img src="./assets/images/img3.jpg" alt="Cozinha" />
-            <img src="./assets/images/img4.jpg" alt="Detalhe da sala com TV Netflix" />
-
-            <div class="gallery-last">
-              <img src="./assets/images/img5.jpg" alt="Sala com TV e sofá" />
-              <button class="show-all">
-                <img src="/assets/icons/show-all.svg" alt="Mostrar todas as fotos" />
-                Mostrar todas as fotos
-              </button>
-            </div>
+          <div class="nav-actions">
+            <a href="#">Torne-se um anfitrião</a>
+            <a href="#">
+              <img src="./assets/icons/globe-icon.svg" alt="Idioma" />
+            </a>
+            <a href="#">
+              <img src="./assets/icons/bars-icon.svg" alt="Menu" />
+            </a>
           </div>
         </div>
       </div>
-    </section>
+    </header>
 
-    <div class="property-wrapper container">
-      <section id="property-info">
-        <div class="info-wrapper">
-          <header class="info-header">
-            <h2>Espaço inteiro: apartamento em Santos, Brasil</h2>
-            <ul>
-              <li>6 hóspedes</li>
-              <li>1 quarto</li>
-              <li>4 camas</li>
-              <li>1 banheiro</li>
-            </ul>
-          </header>
+    <main>
+      <section id="hero">
+        <div class="container">
+          <div class="hero-wrapper">
+            <header class="hero-header">
+              <h1>Em frente a Praia - Exclusividade</h1>
 
-          <div class="host-card">
-            <img src="./assets/icons/host.svg" alt="host-avatar">
+              <div class="hero-actions">
+                <button class="btn">
+                  <img src="./assets/icons/share.svg" alt="Compartilhar" />
+                  Compartilhar
+                </button>
 
-            <div class="host-info">
-              <h3>Anfitriã(o): Lucas</h3>
-              <p>Superhost · hospeda há 5 meses</p>
+                <button class="btn">
+                  <img src="./assets/icons/heart.svg" alt="Salvar" />
+                  Salvar
+                </button>
+              </div>
+            </header>
+
+            <div class="hero-gallery">
+              <img src="./assets/images/img1.jpg" alt="Sala de estar" />
+              <img src="./assets/images/img2.jpg" alt="Vista para a praia" />
+              <img src="./assets/images/img3.jpg" alt="Cozinha" />
+              <img
+                src="./assets/images/img4.jpg"
+                alt="Detalhe da sala com TV Netflix"
+              />
+
+              <div class="gallery-last">
+                <img src="./assets/images/img5.jpg" alt="Sala com TV e sofá" />
+                <button class="show-all">
+                  <img
+                    src="/assets/icons/show-all.svg"
+                    alt="Mostrar todas as fotos"
+                  />
+                  Mostrar todas as fotos
+                </button>
+              </div>
             </div>
           </div>
-
-          <section class="property-highlights">
-            <ul class="highlights-list">
-              <li class="highlight-item">
-                <img src="./assets/icons/trophy.svg" alt="ícone de troféu">
-                <div class="highlight-content">
-                  <h3>No top 1% das acomodações</h3>
-                  <p>Esta acomodação é uma das mais bem classificadas com base em avaliações, comentários e
-                    confiabilidade.</p>
-                </div>
-              </li>
-
-              <li class="highlight-item">
-                <img src="./assets/icons/door.svg" alt="ícone de porta">
-                <div class="highlight-content">
-                  <h3>Self check-in</h3>
-                  <p>Faça check-in sozinho com o teclado numérico.</p>
-                </div>
-              </li>
-
-              <li class="highlight-item">
-                <img src="./assets/icons/calendar.svg" alt="ícone de um calendário">
-                <div class="highlight-content">
-                  <h3>Cancelamento gratuito antes de 8 de out</h3>
-                  <p>Receba um reembolso integral se mudar de ideia.</p>
-                </div>
-              </li>
-            </ul>
-          </section>
-
-          <section class="property-description">
-            <h3>Sol & mar – Sua praia é aqui! ☀️🌊</h3>
-            <p>Apartamento de alto padrão em frente a melhor praia de Santos ( Ponta da praia). Apartamento novo,
-              moderno, climatizado e tecnológico. Localização e vista totalmente privilegiadas! Experiência única com
-              muito conforto e tranquilidade!
-            </p>
-
-            <p>Nosso espaço conta com:</p>
-            <ul>
-              <li> -Wifi... </li>
-            </ul>
-
-            <button>Mostrar mais</button>
-          </section>
-
-          <section class="property-amenities">
-            <h3>O que esse lugar oferece</h3>
-
-            <div class="amenities-list">
-              <ul>
-                <li class="amenities-item">
-                  <img src="./assets/icons/beach-icon.svg" alt="ícone de praia">
-                  Acesso à praia
-                </li>
-                <li class="amenities-item">
-                  <img src="./assets/icons/wifi-icon.svg" alt="ícone de Wi-Fi">
-                  Wi-Fi
-                </li>
-                <li class="amenities-item">
-                  <img src="./assets/icons/car-icon.svg" alt="ícone de carro">
-                  Estacionamento incluído
-                </li>
-                <li class="amenities-item">
-                  <img src="./assets/icons/cold-icon.svg" alt="ícone de floco de neve">
-                  Ar-condicionado
-                </li>
-                <li class="amenities-item">
-                  <img src="./assets/icons/detect-icon.svg" alt="ícone de um detector">
-                  Detector de fumaça
-                </li>
-              </ul>
-
-              <ul>
-                <li class="amenities-item">
-                  <img src="./assets/icons/cutlery-icon.svg" alt="ícone de talheres">
-                  Cozinha
-                </li>
-                <li class="amenities-item">
-                  <img src="./assets/icons/comfortable-icon.svg" alt="ícone de uma cômoda">
-                  Espaço de trabalho exclusivo
-                </li>
-                <li class="amenities-item">
-                  <img src="./assets/icons/tv-icon.svg" alt="ícone de TV">
-                  TV
-                </li>
-                <li class="amenities-item">
-                  <img src="./assets/icons/alarm.svg" alt="ícone de alarme">
-                  Alarme de monóxido de carbono
-                </li>
-              </ul>
-            </div>
-
-            <button>Mostrar todas as 10 comodidades</button>
-          </section>
         </div>
       </section>
 
-      <aside class="daily-info">
-        <div class="daily-wrapper">
-          <header class="daily-header">
-            <img src="/assets/icons/clip-icon.svg" alt="todas as taxas inclusas" />
-            <p>Os preços incluem todas as taxas</p>
-          </header>
+      <div class="property-wrapper container">
+        <section id="property-info">
+          <div class="info-wrapper">
+            <header class="info-header">
+              <h2>Espaço inteiro: apartamento em Santos, Brasil</h2>
+              <ul>
+                <li>6 hóspedes</li>
+                <li>1 quarto</li>
+                <li>4 camas</li>
+                <li>1 banheiro</li>
+              </ul>
+            </header>
 
-          <div class="reservation-wrapper">
-            <div class="reservation-price">
-              <p><u>R$ 558</u>por 2 noites</p>
+            <div class="host-card">
+              <img src="./assets/icons/host.svg" alt="host-avatar" />
+
+              <div class="host-info">
+                <h3>Anfitriã(o): Lucas</h3>
+                <p>Superhost · hospeda há 5 meses</p>
+              </div>
             </div>
 
-            <form class="reservation-form">
-              <div class="inputs-group">
-                <div class="input-wrapper">
-                  <label for="checkin">CHECK-IN</label>
-                  <input type="date" id="checkin" name="checkin" />
-                </div>
+            <section class="property-highlights">
+              <ul class="highlights-list">
+                <li class="highlight-item">
+                  <img src="./assets/icons/trophy.svg" alt="ícone de troféu" />
+                  <div class="highlight-content">
+                    <h3>No top 1% das acomodações</h3>
+                    <p>
+                      Esta acomodação é uma das mais bem classificadas com base
+                      em avaliações, comentários e confiabilidade.
+                    </p>
+                  </div>
+                </li>
 
-                <div class="input-wrapper">
-                  <label for="checkout">CHECKOUT</label>
-                  <input type="date" id="checkout" name="checkout" />
-                </div>
+                <li class="highlight-item">
+                  <img src="./assets/icons/door.svg" alt="ícone de porta" />
+                  <div class="highlight-content">
+                    <h3>Self check-in</h3>
+                    <p>Faça check-in sozinho com o teclado numérico.</p>
+                  </div>
+                </li>
 
-                <div class="input-wrapper">
-                  <label for="guests">HÓSPEDES</label>
-                  <select id="guests" name="guests">
-                    <option value="guest" hidden>1 hóspede</option>
-                    <option value="adult">Adultos</option>
-                    <option value="children">Crianças</option>
-                    <option value="baby">Bebês</option>
-                    <option value="pet">Animais de estimação</option>
-                  </select>
-                </div>
+                <li class="highlight-item">
+                  <img
+                    src="./assets/icons/calendar.svg"
+                    alt="ícone de um calendário"
+                  />
+                  <div class="highlight-content">
+                    <h3>Cancelamento gratuito antes de 8 de out</h3>
+                    <p>Receba um reembolso integral se mudar de ideia.</p>
+                  </div>
+                </li>
+              </ul>
+            </section>
+
+            <section class="property-description">
+              <h3>Sol & mar – Sua praia é aqui! ☀️🌊</h3>
+              <p>
+                Apartamento de alto padrão em frente a melhor praia de Santos (
+                Ponta da praia). Apartamento novo, moderno, climatizado e
+                tecnológico. Localização e vista totalmente privilegiadas!
+                Experiência única com muito conforto e tranquilidade!
+              </p>
+
+              <p>Nosso espaço conta com:</p>
+              <ul>
+                <li>-Wifi...</li>
+              </ul>
+
+              <button>Mostrar mais</button>
+            </section>
+
+            <section class="property-amenities">
+              <h3>O que esse lugar oferece</h3>
+
+              <div class="amenities-list">
+                <ul>
+                  <li class="amenities-item">
+                    <img
+                      src="./assets/icons/beach-icon.svg"
+                      alt="ícone de praia"
+                    />
+                    Acesso à praia
+                  </li>
+                  <li class="amenities-item">
+                    <img
+                      src="./assets/icons/wifi-icon.svg"
+                      alt="ícone de Wi-Fi"
+                    />
+                    Wi-Fi
+                  </li>
+                  <li class="amenities-item">
+                    <img
+                      src="./assets/icons/car-icon.svg"
+                      alt="ícone de carro"
+                    />
+                    Estacionamento incluído
+                  </li>
+                  <li class="amenities-item">
+                    <img
+                      src="./assets/icons/cold-icon.svg"
+                      alt="ícone de floco de neve"
+                    />
+                    Ar-condicionado
+                  </li>
+                  <li class="amenities-item">
+                    <img
+                      src="./assets/icons/detect-icon.svg"
+                      alt="ícone de um detector"
+                    />
+                    Detector de fumaça
+                  </li>
+                </ul>
+
+                <ul>
+                  <li class="amenities-item">
+                    <img
+                      src="./assets/icons/cutlery-icon.svg"
+                      alt="ícone de talheres"
+                    />
+                    Cozinha
+                  </li>
+                  <li class="amenities-item">
+                    <img
+                      src="./assets/icons/comfortable-icon.svg"
+                      alt="ícone de uma cômoda"
+                    />
+                    Espaço de trabalho exclusivo
+                  </li>
+                  <li class="amenities-item">
+                    <img src="./assets/icons/tv-icon.svg" alt="ícone de TV" />
+                    TV
+                  </li>
+                  <li class="amenities-item">
+                    <img src="./assets/icons/alarm.svg" alt="ícone de alarme" />
+                    Alarme de monóxido de carbono
+                  </li>
+                </ul>
               </div>
-              <button type="submit">Reservar</button>
-            </form>
-            <p>Você ainda não será cobrado</p>
-          </div>
 
-          <div class="daily-report">
-            <a href="#">
-              <img src="./assets/icons/flag-icon.svg" alt="Denuncie este anúncio">
-              Denunciar este anúncio</a>
+              <button>Mostrar todas as 10 comodidades</button>
+            </section>
+          </div>
+        </section>
+
+        <aside class="daily-info">
+          <div class="daily-wrapper">
+            <header class="daily-header">
+              <img
+                src="/assets/icons/clip-icon.svg"
+                alt="todas as taxas inclusas"
+              />
+              <p>Os preços incluem todas as taxas</p>
+            </header>
+
+            <div class="reservation-wrapper">
+              <div class="reservation-price">
+                <p><u>R$ 558</u>por 2 noites</p>
+              </div>
+
+              <form class="reservation-form">
+                <div class="inputs-group">
+                  <div class="input-wrapper">
+                    <label for="checkin">CHECK-IN</label>
+                    <input type="date" id="checkin" name="checkin" />
+                  </div>
+
+                  <div class="input-wrapper">
+                    <label for="checkout">CHECKOUT</label>
+                    <input type="date" id="checkout" name="checkout" />
+                  </div>
+
+                  <div class="input-wrapper">
+                    <label for="guests">HÓSPEDES</label>
+                    <select id="guests" name="guests">
+                      <option value="guest" hidden>1 hóspede</option>
+                      <option value="adult">Adultos</option>
+                      <option value="children">Crianças</option>
+                      <option value="baby">Bebês</option>
+                      <option value="pet">Animais de estimação</option>
+                    </select>
+                  </div>
+                </div>
+                <button type="submit">Reservar</button>
+              </form>
+              <p>Você ainda não será cobrado</p>
+            </div>
+
+            <div class="daily-report">
+              <a href="#">
+                <img
+                  src="./assets/icons/flag-icon.svg"
+                  alt="Denuncie este anúncio"
+                />
+                Denunciar este anúncio</a
+              >
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <section id="review">
+        <div class="container">
+          <div class="review-wrapper">
+            <article class="review-info">
+              <header class="review-header">
+                <img
+                  src="https://a0.muscache.com/im/pictures/user/e09527f5-3ca5-4ac8-b522-ab07c1523076.jpg?im_w=240"
+                  alt="Foto do usuário"
+                  class="review-avatar"
+                />
+                <div class="review-perfil">
+                  <h3>Aline</h3>
+                  <p>6 anos no Airbnb</p>
+                </div>
+              </header>
+            </article>
           </div>
         </div>
-      </aside>
-    </div>
-  </main>
+      </section>
+    </main>
 
-  <footer>
-    <div class="footer-container">
-      <div class="footer-list">
-        <h3>Atendimento</h3>
-        <ul>
-          <li>
-            <a href="#">Central de Ajuda</a>
-          </li>
-          <li>
-            <a href="#">Receber ajuda com problema de segurança</a>
-          </li>
-          <li>
-            <a href="#">AirCover</a>
-          </li>
-          <li>
-            <a href="#">Antidiscriminação</a>
-          </li>
-          <li>
-            <a href="#">Apoio à pessoa com deficiência</a>
-          </li>
-          <li>
-            <a href="#">Opções de cancelamento</a>
-          </li>
-          <li>
-            <a href="#">Reporte um problema no bairro</a>
-          </li>
-        </ul>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-list">
+          <h3>Atendimento</h3>
+          <ul>
+            <li>
+              <a href="#">Central de Ajuda</a>
+            </li>
+            <li>
+              <a href="#">Receber ajuda com problema de segurança</a>
+            </li>
+            <li>
+              <a href="#">AirCover</a>
+            </li>
+            <li>
+              <a href="#">Antidiscriminação</a>
+            </li>
+            <li>
+              <a href="#">Apoio à pessoa com deficiência</a>
+            </li>
+            <li>
+              <a href="#">Opções de cancelamento</a>
+            </li>
+            <li>
+              <a href="#">Reporte um problema no bairro</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-list">
+          <h3>Hospedagem</h3>
+          <ul>
+            <li>
+              <a href="#">Anuncie seu espaço no Airbnb</a>
+            </li>
+            <li>
+              <a href="#">Anuncie sua experiência no Airbnb</a>
+            </li>
+            <li>
+              <a href="#">Anuncie seu serviço no Airbnb</a>
+            </li>
+            <li>
+              <a href="#">AirCover para anfitriões</a>
+            </li>
+            <li>
+              <a href="#">Recursos para anfitriões</a>
+            </li>
+            <li>
+              <a href="#">Fórum da comunidade</a>
+            </li>
+            <li>
+              <a href="#">Hospedagem responsável</a>
+            </li>
+            <li>
+              <a href="#">Participe de uma aula gratuita de hospedagem</a>
+            </li>
+            <li>
+              <a href="#">Encontre um coanfitrião</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-list">
+          <h3>Airbnb</h3>
+          <ul>
+            <li>
+              <a href="#">Airbnb 2025 - edição de maio</a>
+            </li>
+            <li>
+              <a href="#">Newsroom</a>
+            </li>
+            <li>
+              <a href="#">Carreiras</a>
+            </li>
+            <li>
+              <a href="#">Investidores</a>
+            </li>
+            <li>
+              <a href="#">Locais emergenciais Airbnb.org</a>
+            </li>
+          </ul>
+        </div>
       </div>
-
-      <div class="footer-list">
-        <h3>Hospedagem</h3>
-        <ul>
-          <li>
-            <a href="#">Anuncie seu espaço no Airbnb</a>
-          </li>
-          <li>
-            <a href="#">Anuncie sua experiência no Airbnb</a>
-          </li>
-          <li>
-            <a href="#">Anuncie seu serviço no Airbnb</a>
-          </li>
-          <li>
-            <a href="#">AirCover para anfitriões</a>
-          </li>
-          <li>
-            <a href="#">Recursos para anfitriões</a>
-          </li>
-          <li>
-            <a href="#">Fórum da comunidade</a>
-          </li>
-          <li>
-            <a href="#">Hospedagem responsável</a>
-          </li>
-          <li>
-            <a href="#">Participe de uma aula gratuita de hospedagem</a>
-          </li>
-          <li>
-            <a href="#">Encontre um coanfitrião</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="footer-list">
-        <h3>Airbnb</h3>
-        <ul>
-          <li>
-            <a href="#">Airbnb 2025 - edição de maio</a>
-          </li>
-          <li>
-            <a href="#">Newsroom</a>
-          </li>
-          <li>
-            <a href="#">Carreiras</a>
-          </li>
-          <li>
-            <a href="#">Investidores</a>
-          </li>
-          <li>
-            <a href="#">Locais emergenciais Airbnb.org</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
