@@ -720,4 +720,30 @@ footer {
       }
     }
   }
+
+  .footer-social {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    & a {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+
+      &:nth-child(3),
+      &:nth-child(4),
+      &:nth-child(5) {
+        justify-content: center;
+        width: 1.875rem;
+        height: 1.875rem;
+        border-radius: 50%;
+
+        &:hover {
+          background-color: var(--background-hover);
+        }
+      }
+    }
+  }
 }
