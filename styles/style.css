@@ -512,6 +512,42 @@
   }
 }
 
+#review {
+  .review-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid var(--stroke-color);
+  }
+
+  .review-info {
+    margin-top: 1.5rem;
+
+    .review-header {
+      border-bottom: none;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .review-perfil {
+      display: flex;
+      flex-direction: column;
+
+      & h3 {
+        font: var(--subtitle-sm-medium);
+      }
+
+      & p {
+        font: var(--text-sm);
+      }
+    }
+
+    
+    }
+  }
+
+
 footer {
   display: flex;
   flex-direction: column;
