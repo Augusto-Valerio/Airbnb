@@ -609,6 +609,20 @@
   }
 }
 
+#property-rules {
+  padding-block: 1.5rem 3rem;
+
+  & h2 {
+    font: var(--text-md);
+  }
+
+  .rules {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 footer {
   display: flex;
   flex-direction: column;
