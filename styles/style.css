@@ -628,6 +628,11 @@
       flex-direction: column;
       gap: 1rem;
 
+      & li:nth-child(1) {
+        font-weight: 500;
+        margin-top: 0.5rem;
+      }
+
       & li a:last-child {
         display: flex;
         align-items: center;
